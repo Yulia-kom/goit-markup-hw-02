@@ -4,8 +4,8 @@
   --color-accent: #2196f3;
   --color-dark-gray: #212121;
   --color-gray: #757575;
+
   --color-dark-bg: #2f303a;
-  --color-center-bg: #e5e5e5;
   --color-light-bg: #f5f4fa;
 }
 
@@ -14,6 +14,11 @@ body {
   color: var(--color-grey);
   background-color: var(--color-white);
 }
+
+a {
+  text-decoration: none;
+}
+
 /*Logo*/
 .logo,
 .logo-footer {
@@ -64,7 +69,7 @@ body {
 .auth-nav .link {
   font-size: 14px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 2;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--color-gray);
@@ -91,6 +96,10 @@ body {
   text-align: center;
 }
 
+.hero-title, .section-title{
+  text-transform: uppercase;
+}
+
 /*Button*/
 
 .button {
@@ -102,7 +111,6 @@ body {
   letter-spacing: 0.06em;
 }
 .port-button {
-  background-color: var(--color-light-bg);
   color: var(--color-dark-gray);
   font-size: 14px;
   font-weight: 500;
@@ -116,14 +124,11 @@ body {
   font-family: inherit;
 }
 /*Section*/
-.section {
-  background: var(--color-light-bg);
-}
 
 .section-title {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--color-dark-gray);
@@ -141,27 +146,27 @@ body {
 /*Container*/
 .container-title {
   font-size: 36px;
-  font-weight: 700;
-  line-height: 1;
+  font-weight: 400;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
 .container {
-  background: var(--color-center-bg);
+  background: var(--color-light-bg);
 }
 
 /*Card*/
 .card-title {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-dark-gray);
 }
 .card-text {
   font-size: 16px;
-  line-height: 1;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-gray);
 }
